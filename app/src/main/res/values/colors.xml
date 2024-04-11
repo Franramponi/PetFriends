@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="colorPrimary">#E0E0E0</color>
+    <color name="colorPrimaryDark">#FBB8AC</color>
     <color name="black">#FF000000</color>
+    <color name="purple">#9933ff</color>
     <color name="white">#FFFFFFFF</color>
     <color name="green">#008000</color>
+    <color name="pink">#fae0e4</color>
+    <color name="brown">#9d8189</color>
+    <color name="white1">#f2fdff</color>
     <color name="light_gray">#F5F5F5</color>
+    <color name="productGridBackgroundColor">#FFFBFA</color>
 </resources>

@@ -5,18 +5,20 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/material_dynamic_tertiary90"
+    android:background="@color/pink"
     android:textAlignment="center"
     tools:context=".MainActivity">
 
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="228dp"
-        android:layout_height="23dp"
-        android:background="@color/design_default_color_background"
+        android:layout_width="300dp"
+        android:layout_height="67dp"
+        android:background="@drawable/title_background"
         android:text="@string/main_bienvenida"
+        android:textColor="@color/brown"
         android:textAlignment="center"
+        android:textSize="23dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,8 +48,8 @@
         android:layout_marginBottom="364dp"
         android:background="@drawable/edt_background"
         android:ems="10"
-        android:inputType="textVisiblePassword"
         android:hint="@string/main_password"
+        android:inputType="textVisiblePassword"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -55,5 +57,15 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.837"
         tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edt_background"
+        android:text="@string/main_btn"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="416dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

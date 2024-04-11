@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">PetFriends</string>
-    <string name="main_bienvenida">BIENVENIDO A PETFRIENDS APP</string>
+    <string name="main_bienvenida">BIENVENIDO A PETFRIENDS</string>
     <string name="main_user">Ingrece su email</string>
     <string name="main_password">Ingrese su password</string> />
+    <string name="main_btn">Ingresar</string> />
 
 </resources>
