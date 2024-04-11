@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@color/brown"
+    android:layout_height="match_parent"
+    tools:context=".Sign_up">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="67dp"
+        android:background="@color/brown"
+        android:text="@string/main_bienvenida"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="222dp"
+        android:layout_height="40dp"
+        android:autofillHints="emailAddress"
+        android:background="@drawable/edt_background"
+        android:ems="10"
+        android:hint="@string/main_user"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="Autofill,MissingConstraints"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="222dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edt_background"
+        android:ems="10"
+        android:hint="@string/main_password"
+        android:inputType="textVisiblePassword"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/btn_sign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.909"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="222dp"
+        android:layout_height="40dp"
+        android:autofillHints="emailAddress"
+        android:background="@drawable/edt_background"
+        android:ems="10"
+        android:hint="@string/sign_name"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="Autofill,MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_sign"
+        android:layout_width="144dp"
+        android:layout_height="48dp"
+        android:text="@string/sign_btn"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

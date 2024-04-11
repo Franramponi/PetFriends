@@ -2,7 +2,12 @@
     <string name="app_name">PetFriends</string>
     <string name="main_bienvenida">BIENVENIDO A PETFRIENDS</string>
     <string name="main_user">Ingrece su email</string>
-    <string name="main_password">Ingrese su password</string> />
-    <string name="main_btn">Ingresar</string> />
+    <string name="main_password">Ingrese su password</string>
+    <string name="main_btn">Ingresar</string>
+    <string name="main_btn_registrarse">Registrarse</string>
+    <string name="sign_btn">Registrarme</string>
+    <string name="sign_name">Nombre de Usuario</string>/>
+
+
 
 </resources>
