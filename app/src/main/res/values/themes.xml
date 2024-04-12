@@ -1,10 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.PetFriends" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Theme.PetFriends" parent="Theme.Material3.DayNight.NoActionBar">
+
         <!-- Customize your light theme here. -->
-         <item name="colorPrimary">@color/light_gray</item>
-        <item name="android:actionButtonStyle">@style/CustomButtom</item>
+
     </style>
 
-    <style name="Theme.PetFriends" parent="Base.Theme.PetFriends" />
+<!--    <style name="Theme.PetFriends" parent="Base.Theme.PetFriends" />-->
 </resources>
